@@ -1,0 +1,28 @@
+\section{Theorie}
+\label{sec:Theorie}
+
+
+
+\subsection{Integrationsverhalten des RC-Kreises}
+Ein RC-Kreis, oder Tiefpass, kann als integrator dienen, wenn die Bedingung $\omega >> \frac{1}{RC}$ erfüllt ist. Es kann die proportionalität von $U_c$ zu $\int U(t) dt$ gezeit werden.
+\begin{equation}
+    U(t) = U_{R}(t) + U_C(t) = I(t) \cdot R + U_c(t)
+    \label{eq:e9} %ZAHL MUSS NOCH ANGEPASST WERDEN
+\end{equation}
+
+Mit \ref{} wird I(t) ersetzt:\\
+
+\begin{equation}
+    U(t) = RC\frac{dU_C}{dt}
+    \label{eq:e10} %ZAHL MUSS NOCH ANGEPASST WERDEN
+\end{equation}
+
+Wegen der Bedingung $\omega >> \frac{1}{RC}$ folgt dann:
+\begin{equation}
+    U_C(t) = \frac{1}{RC}\int_{0}^{t}U(t') dt'
+    \label{eq:e11} %ZAHL MUSS NOCH ANGEPASST WERDEN
+\end{equation}
+
+
+
+\cite{sample}
