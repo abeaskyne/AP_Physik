@@ -14,7 +14,7 @@ Wobei $\mu_0 = 1.2566370621219 \cdot 10 ^ -6 $ gilt \cite{Formelsammlung}.
       row{1} = {guard, mode=math},
     }
     \toprule
-    r \mathbin{/} \unit{\centimeter} [\pm 0.1mm]& I \mathbin{/} \unit{\ampere} [\pm 0.1 A] & B \mathbin{/} \unit{\tesla} [\pm 0.00014 T] & \\
+    r \mathbin{/} m \unit{\centimeter} [\pm 0.1mm]& I \mathbin{/} \unit{\ampere} [\pm 0.1 A] & B \mathbin{/} \unit{\tesla} [\pm 0.00014 T] & \\
     \midrule
     10.35 & 2.7  & 0.00366 \\
     9.95  & 2.6  & 0.00353 \\
@@ -30,11 +30,32 @@ Wobei $\mu_0 = 1.2566370621219 \cdot 10 ^ -6 $ gilt \cite{Formelsammlung}.
   \end{tblr}
 \end{table}
 
+Um das magnetische Moment $\mu_{0}$ zu bestimmen wird nun mit polyfit \cite{numpy}\cite{matplotlib} eine lineare Regression aus den Messwerten erstellt. Zu sehen in Abbildung \ref{fig:plot1}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width = 10cm]{plot1.pdf}
+  \caption{Messwerte und lineare Regression von $r$ und $B$}
+  \label{fig:plot1}
+\end{figure}
+
+Die ausgegebenen Parameter sind\\
+\begin{centering}
+  Steigung $a = (32.200 ± 1.639) \frac{m}{T}$\\
+  Achsenabschnitt $b = (-0.013 ± 0.004)$m\\
+\end{centering}
+
+Nach \ref{} wird das magnetische moment aus der Steigung als\\
+\begin{centering}
+  $m \cdot g \cdot a = (4.42 \pm 0.23) Am^2$\\
+\end{centering}
+Es wurde $g = 9.81$ verwendet. %EVENTUELLLLLLLLLLL QUEEEEEEEEELLLLLLLLLLLLLEEEEEEEEEEEEEEEE
+%----------------------------------------------------------------------- ZWEITE MESSUNG
 
 In der folgenden Tabelle \ref{tab:tabelle2} werden die Messwerte für $I$, das daraus berechnete $B$ und die Periodendauer $T$ aufgeführt
 \begin{table}
   \centering
-  \caption{Messwerte der Stromstärke, der magnetischen Flussdichte und des Abstandes r}
+  \caption{Messwerte der Stromstärke, der magnetischen Flussdichte und der Periodendauer T}
   \label{tab:tabelle2}
   \sisetup{table-format=1.1, per-mode=reciprocal}
   \begin{tblr}{
@@ -57,5 +78,26 @@ In der folgenden Tabelle \ref{tab:tabelle2} werden die Messwerte für $I$, das d
     \bottomrule
   \end{tblr}
 \end{table}
-
+%______________________________________________________-- DRITTE MESSUNG
+\begin{table}
+  \centering
+  \caption{Messwerte der Stromstärke I, magnetische Flussdichte B, und 3 Präzessionsperioden Messwerte}
+  \label{tab:tabelle3}
+  \sisetup{table-format=1.1, per-mode=reciprocal}
+  \begin{tblr}{
+      colspec = {S[table-format=3.0] S[table-format=2.1] S},
+      row{1} = {guard, mode=math},
+    }
+    \toprule
+    I \mathbin{/} \unit{\ampere} [\pm 0.1 A] & B \mathbin{/} \unit{\tesla} [\pm 0.00014 T] & T_{\symup{p}1} \mathbin{/} \unit{\second} &   T_{\symup{p}2} \mathbin{/} \unit{\second} &  T_{\symup{p}3} \mathbin{/} \unit{\second} & \symup{Mittelwert der} T_p\\
+    \midrule
+    1    & 0.00136  & 15.77 & 15.35 & 15.9 & 15.67   \\
+    1.5  & 0.00203  & 15.5  & 17.65 & 15.6 & 16.25   \\
+    2    & 0.00271  & 13.0  & 11.63 & 11.61& 12.08   \\
+    2.5  & 0.00339  & 9.7   & 9.44  & 9.59 & 9.58    \\
+    3    & 0.00407  & 8.54  & 7.79  & 7.42 & 7.92    \\
+  
+    \bottomrule
+  \end{tblr}
+\end{table}
 

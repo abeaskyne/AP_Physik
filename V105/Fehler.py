@@ -29,6 +29,12 @@ s8 = ufloat(2.3, 0.1)
 s9 = ufloat(3, 0.1)
 s10 = ufloat(3.5, 0.1)
 
+p1 = ufloat(1, 0.1)
+p2 = ufloat(1.5, 0.1)
+p3 = ufloat(2, 0.1)
+p4 = ufloat(2.5, 0.1)
+p5 = ufloat(3, 0.1)
+
 print(f(i1))
 print(f(i2))
 print(f(i3))
@@ -51,4 +57,17 @@ print(f(s7))
 print(f(s8))
 print(f(s9))
 print(f(s10))
+
+print("PRÄZESSSSSSSSSSSIOOOOOOOOOOOOOONNNNNNNNNNNN")
+print(f(p1))
+print(f(p2))
+print(f(p3))
+print(f(p4))
+print(f(p5))
+
+print("REEEEEEEECHEEEEEEEEEn")
+a = ufloat(32.2, 1.639)
+print(0.014 * 9.81 * a)
+
+
 
