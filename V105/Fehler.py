@@ -67,9 +67,9 @@ print(f(p5))
 
 print("REEEEEEEECHEEEEEEEEEn")
 a = ufloat(32.2, 1.639)
-print(0.014 * 9.81 * a)
+print(0.0014 * 9.81 * a)
 
-a = ufloat(110.425 , 9.732)
+a = ufloat(137.791 , 6.958)
 print("SChwingungggggggg MM")
 print(a * 4*(np.pi**2)* (4.704 * 10**(-5)))
 
