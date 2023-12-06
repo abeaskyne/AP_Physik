@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.23)  5 DEC 2023 23:11
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.23)  6 DEC 2023 07:27
  restricted system commands enabled.
 **V105.tex
 (./V105.tex
@@ -1738,15 +1738,6 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: Citation 'numpy' on page 4 undefined on input line 33.
 
-
-LaTeX Warning: Citation 'matplotlib' on page 4 undefined on input line 33.
-
-
-Overfull \hbox (12.42209pt too wide) in paragraph at lines 33--34
-[]\TU/lmr/m/n/10.95 Um das ma-gne-ti-sche Mo-ment $\TU/LatinModernMath(1)/m/n/1
-0.95 𝜇[]$ \TU/lmr/m/n/10.95 zu be-stim-men wird nun mit po-ly-fit [[]][[]]
- []
-
 <plot1.pdf, id=47, 462.528pt x 346.896pt>
 File: plot1.pdf Graphic file (type pdf)
 <use plot1.pdf>
@@ -1755,6 +1746,7 @@ Package luatex.def Info: plot1.pdf  used on input line 37.
 
 LaTeX Warning: Reference `' on page 4 undefined on input line 48.
 
+ [4]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1763,6 +1755,28 @@ LaTeX Warning: Reference `' on page 4 undefined on input line 48.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
+<plot2.pdf, id=58, 462.528pt x 346.896pt>
+File: plot2.pdf Graphic file (type pdf)
+<use plot2.pdf>
+Package luatex.def Info: plot2.pdf  used on input line 87.
+(luatex.def)             Requested size: 284.52756pt x 213.40593pt.
+
+LaTeX Warning: Citation 'numpy' on page 5 undefined on input line 91.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+LaTeX Warning: Reference `' on page 5 undefined on input line 100.
+
+ [5<./plot1.pdf>] [6<./plot2.pdf>]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1771,82 +1785,104 @@ LaTeX Warning: Reference `' on page 4 undefined on input line 48.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 15$
  []
 
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 15$
  []
 
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 15$
  []
 
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 15$
  []
 
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 13$
  []
 
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 13$
  []
 
 > Step: build the whole table.
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 15$
  []
 
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 15$
  []
 
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 15$
  []
 
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 15$
  []
 
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 13$
  []
 
 
-Overfull \hbox (5.475pt too wide) detected at line 101
+Overfull \hbox (5.475pt too wide) detected at line 126
 $\TU/LatinModernMath(1)/m/n/10.95 13$
  []
 
-) (./content/diskussion.tex [4] [5<./plot1.pdf>])
+
+LaTeX Warning: Citation 'numpy' on page 7 undefined on input line 129.
+
+<plot3.pdf, id=133, 462.528pt x 346.896pt>
+File: plot3.pdf Graphic file (type pdf)
+<use plot3.pdf>
+Package luatex.def Info: plot3.pdf  used on input line 132.
+(luatex.def)             Requested size: 284.52756pt x 213.40593pt.
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 143.
+
+) (./content/diskussion.tex)
 
 LaTeX Warning: Empty bibliography on input line 23.
 
- [6] (./V105.aux)
+ [7<./plot3.pdf>] [8] (./V105.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `V105.aux' has not changed.
-(rerunfilecheck)             Checksum: 5CA0330288D6F5DED2C89796A22ABD3B;7769.
+
+Package rerunfilecheck Warning: File `V105.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `V105.aux':
+(rerunfilecheck)             Before: 3A80CA5F2A3D5B47C6B57EC948D04CA6;8448
+(rerunfilecheck)             After:  6EE0054D370DC592C975D1BF92D269C8;8448.
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `V105.toc' has not changed.
-(rerunfilecheck)             Checksum: 86790EB340FA68D6D858FF4FC956BB9F;843.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `V105.toc' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `V105.toc':
+(rerunfilecheck)             Before: 882440292801D6391409082983E488F6;843
+(rerunfilecheck)             After:  0DE5694F9A05E37D64397D1EAB397CB0;843.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                V105
@@ -1858,15 +1894,15 @@ Package logreq Info: Writing requests to 'V105.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40147 strings out of 477259
- 125002,2373549 words of node,token memory allocated
+ 40171 strings out of 477259
+ 100000,2373549 words of node,token memory allocated
  710 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 8 glue, 4 kern, 1 penalty, 3 glyph, 14
  attribute, 75 glue_spec, 9 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:13,2:8991,3:335,4:89,5:402,6:191,7:7234,8:24,9:3043,10:20,11:6
-69,12:1
- 60785 multiletter control sequences out of 65536+600000
- 91 fonts using 36551823 bytes
+   avail lists: 1:5,2:3799,3:228,4:98,5:382,6:113,7:7230,8:23,9:1739,10:20,11:66
+9,12:1
+ 60801 multiletter control sequences out of 65536+600000
+ 91 fonts using 36551659 bytes
  113i,12n,115p,10917b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/abea/.local/texlive/2023/texmf-dist/fonts/opentype/public/lm-math/latinmo
 dern-math.otf></home/abea/.local/texlive/2023/texmf-dist/fonts/opentype/public/l
@@ -1876,10 +1912,10 @@ nts/opentype/public/lm/lmroman10-regular.otf></home/abea/.local/texlive/2023/tex
 mf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/abea/.local/texliv
 e/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/abea/.local/
 texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on V105.pdf (6 pages, 55922 bytes).
+Output written on V105.pdf (8 pages, 72527 bytes).
 
-PDF statistics: 180 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 131072)
+PDF statistics: 249 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 131072)
  65 words of extra memory for PDF output out of 10000 (max. 100000000)
 

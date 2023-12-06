@@ -6,5 +6,5 @@
 \contentsline {subsection}{\numberline {2.3}Messung zur Bestimmung des magnetsichen Momenetes durch Oszillation}{3}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Messung zur Bestimmung des magnetischen Momentes über Präzession eines Magneten}{3}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Auswertung}{4}{section.3}%
-\contentsline {section}{\numberline {4}Diskussion}{6}{section.4}%
+\contentsline {section}{\numberline {4}Diskussion}{8}{section.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

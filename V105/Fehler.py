@@ -69,5 +69,15 @@ print("REEEEEEEECHEEEEEEEEEn")
 a = ufloat(32.2, 1.639)
 print(0.014 * 9.81 * a)
 
+a = ufloat(110.425 , 9.732)
+print("SChwingungggggggg MM")
+print(a * 4*(np.pi**2)* (4.704 * 10**(-5)))
+
+print("PRÄSEZSIONNNN MM")
+a = ufloat(24.761, 4.049)
+print(a * 2*np.pi * 1.241356355 * (10**(-3)))
+
+
+
 
 

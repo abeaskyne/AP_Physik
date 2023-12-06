@@ -30,7 +30,7 @@ Wobei $\mu_0 = 1.2566370621219 \cdot 10 ^ -6 $ gilt \cite{Formelsammlung}.
   \end{tblr}
 \end{table}
 
-Um das magnetische Moment $\mu_{0}$ zu bestimmen wird nun mit polyfit \cite{numpy}\cite{matplotlib} eine lineare Regression aus den Messwerten erstellt. Zu sehen in Abbildung \ref{fig:plot1}.
+Um das magnetische Moment $\mu_{0}$ zu bestimmen wird nun mit polyfit \cite{numpy} eine lineare Regression aus den Messwerten erstellt. Zu sehen in Abbildung \ref{fig:plot1}.
 
 \begin{figure}
   \centering
@@ -49,7 +49,9 @@ Nach \ref{} wird das magnetische moment aus der Steigung als\\
 \begin{centering}
   $m \cdot g \cdot a = (4.42 \pm 0.23) Am^2$\\
 \end{centering}
+berechnet\\
 Es wurde $g = 9.81$ verwendet. %EVENTUELLLLLLLLLLL QUEEEEEEEEELLLLLLLLLLLLLEEEEEEEEEEEEEEEE
+\newpage
 %----------------------------------------------------------------------- ZWEITE MESSUNG
 
 In der folgenden Tabelle \ref{tab:tabelle2} werden die Messwerte für $I$, das daraus berechnete $B$ und die Periodendauer $T$ aufgeführt
@@ -78,7 +80,30 @@ In der folgenden Tabelle \ref{tab:tabelle2} werden die Messwerte für $I$, das d
     \bottomrule
   \end{tblr}
 \end{table}
+
+Zur Bestimmung des magnetischen Momentes wird nun in Abbildung \ref{fig:plot2} eine lineare Regression der Messwerte gemacht, dabei wird $T^2$ gegen $\frac{1}{B}$ aufgetragen.
+\begin{figure}
+  \centering
+  \includegraphics[width = 10cm]{plot2.pdf}
+  \caption{Lineare Regression der Messwerte zur Bestimmung des magnetishen Momentes}
+  \label{fig:plot2}
+\end{figure}
+Die von polyfit \cite{numpy} ausgegebenen Parameter sind\\
+
+\begin{centering}
+Steigung $a = (110.425 ± 9.732) s^2 \cdot T$\\
+Achsenabschnitt $b = (225.919 ± 48.214) s^2$\\
+\end{centering}
+
+Das Trägheitsmoment der Billardkugel beträgt $Jk = \frac{2}{5}mr^2 = 4.704 \cdot 10^-5 kg\cdot m^2$\\
+
+Nach \ref{} ergibt sich das magnetsiche Moment $\mu_0 = (0.205 \pm 0.018) Am^2$
+\newpage
+
 %______________________________________________________-- DRITTE MESSUNG
+
+Für die dritte Methode der bestimmung des magnetischen Momentes in der folgenden Tabelle \ref{tab:tabelle3} die Messwerte für die Periodendauern, der Mittelwert der Periodendauern,
+der Stromstärke $I$ und der daraus berechneten magnetischen Flussdichte $B$ aufgeführt.
 \begin{table}
   \centering
   \caption{Messwerte der Stromstärke I, magnetische Flussdichte B, und 3 Präzessionsperioden Messwerte}
@@ -100,4 +125,32 @@ In der folgenden Tabelle \ref{tab:tabelle2} werden die Messwerte für $I$, das d
     \bottomrule
   \end{tblr}
 \end{table}
+
+In der folgenden Abbildung \ref{fig:plot3} wird mithilfe von polyfit \cite{numpy} eine lineare regression der Messwerte erstellt.
+\begin{figure}
+  \centering
+  \includegraphics[width =10cm]{plot3.pdf}
+  \caption{Lineare Regression zur Bestimmung des magnetischen momentes durch Präzession}
+  \label{fig:plot3}
+\end{figure}
+
+Die ausgegebenen Parameter lauten\\
+\begin{centering}
+Steigung $a = (24.761 ± 4.049) \frac{1}{s \cdot T}$\\
+Achsenabschnitt $b =(0.021 ± 0.012) \frac{1}{s}$\\
+\end{centering}
+
+Der Drehimpuls $L_{\symup{k}}$ berechnet sich nach \ref{} zu\\
+
+\begin{centering}
+  $L_{\symup{k}} = 1.241 \cdot 10^-3 N\cdot m\cdot s$
+\end{centering}
+
+Damit berechnet sich das magnetische Moment zu\\
+
+\begin{centering}
+  $\mu_0 = (0.193 \pm 0.032) Am^2$
+\end{centering}
+ 
+
 
