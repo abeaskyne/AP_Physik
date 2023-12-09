@@ -47,6 +47,7 @@ $a = -561.333 ± 11.666$\\
 $b = 1.389 ± 0.038$\\
 \\
 Um die Parameterberechung und das plotten zu ermöglichen wurde der letzte Messwert aus der Tabelle ignoriert.
+\newpage
 
 \begin{figure}
   \centering
@@ -55,7 +56,7 @@ Um die Parameterberechung und das plotten zu ermöglichen wurde der letzte Messw
   \label{fig:plot1}
 \end{figure}
 
-Da $a = -\frac{1}{RC}$, ist $RC = 0.00178\pm 0.00004$
+Da $a = -\frac{1}{RC}$, ist $RC = 0.00178\pm 0.00004$.
 
 
 
@@ -72,7 +73,7 @@ Die Messwerte sind in Tabelle \ref{tab:tabelle2} aufgeführt.
       vline{2} = {2}{-}{text=\clap{$\pm$}},
     }
     \toprule
-    \SetCell[c=2]{c} A \mathbin{/} \unit{\volt} & F \mathbin{/} \unit{\hertz} [\pm 1] & \\
+    \SetCell[c=2]{c} A \mathbin{/} \unit{\volt} & & F \mathbin{/} \unit{\hertz} [\pm 1] & \\
     \midrule
     6.8   & 0.4   &  50   \\
     4.8   & 0.4   &  100  \\
@@ -96,7 +97,7 @@ Die Messwerte sind in Tabelle \ref{tab:tabelle2} aufgeführt.
 
 Anhand der Messwerte wird eine Ausgleichsfunktion der Gestalt:\\
 \\
-$U_c = \frac{1}{\sqrt(1+(F\cdot2\pi)\cdot a^2)}$\\
+$U_c = \frac{1}{\sqrt(1+(F\cdot2\pi)\cdot a^2)}$ siehe \ref{eqn:amplitude2}\\
 \\
 mit curve-fit \cite{scipy} erstellt. $U_c$ ist dabei die Realtivamplitude $A/U_0$\\
 \\
@@ -104,7 +105,7 @@ Die Parameter ergeben sich zu:\\
 \\
 $a = 0.00155 \pm 0.00007$\\
 \\
-Mit \ref{} gilt also $RC = 0.00155 \pm 0.00007 $\\
+Mit \ref{eqn:amplitude2} gilt also $RC = 0.00155 \pm 0.00007 $\\
 
 Zum Zweck des Vergleichens wurde dieselbe Funktion noch einmal mit $RC = 0.00178$ geplottet. Der Graph ist zu sehen in Abbildung \ref{fig:plot2}.
 
@@ -121,21 +122,21 @@ Zum Zweck des Vergleichens wurde dieselbe Funktion noch einmal mit $RC = 0.00178
 
 
 
-Für eine dritte Variante Variante der Berechnung von RC wird der Phasenunterschied zwischen der Generatorspannung und der Kondensatorspannung abhängig von der Frequenz gemessen.
+Für eine dritte Variante der Berechnung von RC wird der Phasenunterschied zwischen der Generatorspannung und der Kondensatorspannung abhängig von der Frequenz gemessen.
 Die Messeregebnisses finden sich in Tabelle \ref{tab:tabelle3}.
 
 \begin{table}
   \centering
-  \caption{Messwerte zur Amplitude und Frequenz}
-  \label{tab:tabelle2}
+  \caption{Messwerte zur Phasenverschiebung und Frequenz}
+  \label{tab:tabelle3}
   \sisetup{table-format=1.1, per-mode=reciprocal}
   \begin{tblr}{
-      colspec = {S[table-format=3.3] S[table-format=2.4] S},
+      colspec = {S[table-format=3.3] S[table-format=3.3] S[table-format=5.5]},
       row{1} = {guard, mode=math},
       vline{2} = {2}{-}{text=\clap{$\pm$}},
     }
     \toprule
-    \SetCell[c=2]{c} \varphi \mathbin{/} rad & F \mathbin{/} \unit{\hertz} [\pm 1] & \\
+    \SetCell[c=2]{c} \varphi \mathbin{/} rad & & F \mathbin{/} \unit{\hertz} [\pm 1] & \\
     \midrule
     3.77  &  0.15  &  50   \\
     2.2   &  0.13  &  100  \\
@@ -157,7 +158,7 @@ Die Messeregebnisses finden sich in Tabelle \ref{tab:tabelle3}.
 
 \newpage
 
-Im folgenden Plot werden die Messergebnisse dargestellt, zum vergleich sind auch die Kurven der eigentlich erwarteten $\arctan$ Funktion mit den beiden vorher errechneten RC werten abgebildet.
+Im folgenden Plot \ref{fig:plot3} werden die Messergebnisse dargestellt, zum vergleich sind auch die Kurven der eigentlich erwarteten $\arctan$ Funktion \ref{eqn:phase1} mit den beiden vorher errechneten RC werten abgebildet.
 
 
 \begin{figure}
@@ -167,8 +168,10 @@ Im folgenden Plot werden die Messergebnisse dargestellt, zum vergleich sind auch
   \label{fig:plot3}
 \end{figure}
 
+\newpage
+
 Nun werden die Messwerte für die relative Amplitude $A_{(\omega)}/U_0$ abhängig von der Phase dargestellt in einem Polarplot.
-Zum vergleich wird ausserdem die eigentliche Funktion geplottet, die die gestalt $A/U_0 = \frac{\sin(\varphi)}{\tan(\varphi)}$ hat.
+Zum Vergleich wird ausserdem die eigentliche Funktion geplottet, die die gestalt $A/U_0 = \frac{\sin(\varphi)}{\tan(\varphi)}$ hat.
 
 \begin{figure}
 \centering
@@ -176,6 +179,8 @@ Zum vergleich wird ausserdem die eigentliche Funktion geplottet, die die gestalt
 \caption{Polarplot der relativen Amplitude abhängig von der Phasenverschiebung}
 \label{fig:plot4}
 \end{figure}
+
+\newpage
 
 Zur Verifikation der Integratorfunktion werden nun 3 Abbildungen \ref{fig:int1},  \ref{fig:int2} und \ref{fig:int3} gezeigt, die jeweils eine generierte Spannung gemeinsam mit der vom Tiefpass integrierten Spannung abbilden.
 

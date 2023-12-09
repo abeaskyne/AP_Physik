@@ -46,7 +46,7 @@ ax.legend(loc = "best")
 ax.set_xscale("log")
 ax.set_yscale("linear")
 ax.set_ylim(0,4)
-ax.set_ylabel((r'$Relatimplitude$'))
+ax.set_ylabel((r'$Relativmplitude$'))
 ax.set_xlabel(r'$F / Hz')
 
 fig.savefig("plot2.pdf")

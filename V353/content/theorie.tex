@@ -1,5 +1,86 @@
 \section{Theorie}
 \label{sec:Theorie}
+\subsection{allgemeine Relaxationsgleichung und praktisches Beispiel des RC-Kreises}
+Relaxation beschreibt die  Effekte welche beim Entfernen eines Systems aus seinem oszillierenden Zustands und seiner anschließenden Rückkehr (ohne Oszillation) in 
+selbigen Zustand zustande kommen.Im allgemeinen gilt dabei 
+\begin{equation}
+    \frac{dA}{dt}=c[A(t)-A(\infty)]\,
+\end{equation}
+bzw. nach Integration und Auflösung nach A(t)
+\begin{equation}
+    A(t)=A(\infty) + [A(0)-A(\infty)]\cdot e^(ct)\,
+\label{eqn:voreqn2}
+\end{equation}
+
+
+
+Ein praktisches Beispiel für einen Relaxationsvorgang stellen die Auf- und Entladung eines Kodensators im RC-Kreis dar. Aus dem Zusammenhang
+\begin{equation}
+     U_{C}= \frac{Q}{C}\,
+    \label{eqn:eqn2}
+\end{equation}
+folgt mit dem Ohmschen Gesetz $I= \frac{U_{C}}{R}$ und der Ladungsänderung \begin{equation}
+    dQ = Idt
+    \label{eqn:eqn3}
+\end{equation} 
+das $ \frac{dQ}{dt} = (-)\frac{1}{RC}\cdot Q(t)$ gilt.
+Mittels Integration folgt dann unter Berücksichtigung der Randbedingung $Q(\infty)=0$
+\begin{equation}
+Q(t)= Q(0)\cdot exp(-\frac{t}{RC})\,
+\label{eqn:eq1}
+\end{equation}
+DIe Randbedingung folgt dabei aus der Tatsache das der Kondensator sich asymptotisch gegen 0 nähert für t gegen unendlich.
+Für die Aufladefunktion des Kondensators bei Verbindung mit einer Spannungsquelle folgt mit ähnlichem Ansatz\\
+$Q(t)=C U_{0}(1-exp(\frac{-t}{RC}))$\\
+Die Größe RC wird als Zeitkonstante $\tau$ bezeichnet. Innerhalb eines dieser Zeitkonstanten ändert sich die Ladung um den Faktor $\frac{1}{e} \approx \qty{36.8}{\percent}$.
+\subsection{Relaxations bei periodischer Auslenkung aus Gleichgewichtslage Anhand eines RC-Kreise}
+In diesem Fall des RC-Kreise wird eine Äußere Spannung mit $U(t)=U_{0}\cdot cos(\omega t)$ betrachtet.
+Für kleine Frequenzen $\omega$ ($\omega << \frac{1}{RC})$ ist die Kodensatorspannung $U_{c}$ gleich der äußeren Spannung $U_0$. Da der Auf- und Entladeprozess jedoch zeitlich 
+durch die Zeitkonstante in seiner Dauer nicht beliebig schnell werden kann, ergibt sich bei steigender Frequenz ein Phasenunterschied zwischen $U_0$ und $U_C$. 
+Da desweiteren die Äußere Spannung ein anderes Vorzeichen als die Kodensatorspannung hat, sinkt die Amplitude der Spannung am Kodensator.\\
+Mathematisch kann dieses Problem folgender Weise betrachtet werden:\\
+Als Grundansatz wählt man
+\begin{equation}
+    U_{C}(t)= A(\omega)cos(\omega t+ \varphi (\omega))  \,
+    \label{eqn:ansatz}
+\end{equation}
+Mit dem zweiten Kirchhoffschen Gesetz ergibt sich
+\begin{equation}
+U_{0}cos(\omega t)= I(t)R + A(\omega)cos(\omega t+ \varphi (\omega)) \,
+\label{eqn:eqn6}
+\end{equation}
+Aus \ref{eqn:eqn2} und \ref{eqn:eqn3} folgt dann 
+\begin{equation}
+I(t)= C\frac{dU_{C}}{dt}
+\label{eqn:eqn7}
+\end{equation}
+Insgesamt ergibt sich dann durch einsetzen von \ref{eqn:eqn7} in \ref{eqn:eqn6}
+\begin{equation}
+    U_{0}cos(\omega t)= A \omega RC sin(\omega t + \varphi) + A(\omega)cos(\omega t+ \varphi (\omega)) \,
+\label{eqn:eqn8}
+\end{equation}
+Aus der Gültigkeit dieser Gleichung lässt sich durch die Auswahl spezieller werte für t nach einigen Umformungen der Zusammenhang 
+\begin{equation}
+    \varphi (\omega) = arctan(-\omega RC)\,
+    \label{eqn:phase1}
+\end{equation}
+für die Phasenverschiebung zwischen $U_{C}$ und $U_{0}$ herstellen.\\
+Ebenfalls aus \ref{eqn:eqn8} folgt nach Umformung 
+\begin{equation}
+    A(\omega)= -\frac{sin(\varphi)}{\omega RC}\cdot U_{0}\,
+    \label{eqn:amplitude1}
+\end{equation}
+oder durch verwendung von \ref{eqn:phase1}
+\begin{equation}
+    A(\omega)= \frac{U_{0}}{\sqrt{1+ (\omega RC)^2}}\,
+    \label{eqn:amplitude2}
+\end{equation}
+als Zusammenhang zwischen der Amplitude von $U_{C}$.\\
+Aus \ref{eqn:phase1} lässt sich erkenn, das die Phasendifferenz für kleine Frequenzen gegen 0 und für hohe Frequenzen gegen $\frac{\pi}{2}$ geht.\\
+Für die Amplitude lässt sich aus \ref{eqn:amplitude2} leicht erkennen, dass $A$ für kleine Frequenzen gegen $U_{0}$ und für große Frequenzen gegen 0 geht.
+
+
+\label{sec:Theorie}
 
 
 
@@ -10,7 +91,7 @@ Ein RC-Kreis, oder Tiefpass, kann als integrator dienen, wenn die Bedingung $\om
     \label{eq:e9} %ZAHL MUSS NOCH ANGEPASST WERDEN
 \end{equation}
 
-Mit \ref{} wird I(t) ersetzt:\\
+Mit \ref{eqn:eqn7} wird I(t) ersetzt:\\
 
 \begin{equation}
     U(t) = RC\frac{dU_C}{dt}
@@ -25,4 +106,4 @@ Wegen der Bedingung $\omega >> \frac{1}{RC}$ folgt dann:
 
 
 
-\cite{sample}
+ Theorie entnommen aus \cite{V353}

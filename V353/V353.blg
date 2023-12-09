@@ -1,0 +1,18 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[4] Config.pm:310> INFO - Logfile is 'V353.blg'
+[103] biber:340> INFO - === Sun Dec  3, 2023, 17:54:06
+[137] Biber.pm:419> INFO - Reading 'V353.bcf'
+[234] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[254] Biber.pm:4419> INFO - Processing section 0
+[269] Biber.pm:4610> INFO - Looking for bibtex file 'lit.bib' for section 0
+[284] bibtex.pm:1713> INFO - LaTeX decoding ...
+[289] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[323] Biber.pm:4610> INFO - Looking for bibtex file 'programme.bib' for section 0
+[336] bibtex.pm:1713> INFO - LaTeX decoding ...
+[347] bibtex.pm:1519> INFO - Found BibTeX data source 'programme.bib'
+[471] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[472] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[472] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[473] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[488] bbl.pm:660> INFO - Writing 'V353.bbl' with encoding 'UTF-8'
+[516] bbl.pm:763> INFO - Output to V353.bbl
