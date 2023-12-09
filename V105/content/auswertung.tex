@@ -1,8 +1,10 @@
 \section{Auswertung}
 \label{sec:Auswertung}
+Die verwedneten plots wurden mithilfe von matplotlib \cite{matplotlib} erstellt, die berechnungen wurden mit Python-numpy \cite{numpy}, Python-Scipy \cite{scipy} und die fehlerrechnung wurde mit Python-uncertainties \cite{uncertainties} gemacht.
 
 
-In der nachfolgenden Tabelle \ref{tab:tabelle1} sind die gemessenen Werte der Stromstärke $I$ und des Abstandes $r$ sowie die aus $I$ nach \ref{} berechnete magnetische Flussdichte $B$ dargestellt.
+
+In der nachfolgenden Tabelle \ref{tab:tabelle1} sind die gemessenen Werte der Stromstärke $I$ und des Abstandes $r$ sowie die aus $I$ nach \ref{eqn:Bio1} berechnete magnetische Flussdichte $B$ dargestellt.
 Wobei $\mu_0 = 1.2566370621219 \cdot 10 ^ -6 $ gilt \cite{Formelsammlung}.
 \begin{table}
   \centering
@@ -45,7 +47,7 @@ Die ausgegebenen Parameter sind\\
   Achsenabschnitt $b = (-0.013 ± 0.004)$m\\
 \end{centering}
 
-Nach \ref{} wird das magnetische moment aus der Steigung als\\
+Nach \ref{eqn:grav2} wird das magnetische moment aus der Steigung als\\
 \begin{centering}
   $m \cdot g \cdot a = (0.442 \pm 0.023) Am^2$\\
 \end{centering}
@@ -54,7 +56,7 @@ Es wurde $g = 9.81$ verwendet. %EVENTUELLLLLLLLLLL QUEEEEEEEEELLLLLLLLLLLLLEEEEE
 \newpage
 %----------------------------------------------------------------------- ZWEITE MESSUNG
 
-In der folgenden Tabelle \ref{tab:tabelle2} werden die Messwerte für $I$, das daraus berechnete $B$ und die Periodendauer $T$ aufgeführt
+In der folgenden Tabelle \ref{tab:tabelle2} werden die Messwerte für $I$, das daraus berechnete $B$ und die Periodendauer $T_p$ aufgeführt
 \begin{table}
   \centering
   \caption{Messwerte der Stromstärke, der magnetischen Flussdichte und der Periodendauer T}
@@ -65,7 +67,7 @@ In der folgenden Tabelle \ref{tab:tabelle2} werden die Messwerte für $I$, das d
       row{1} = {guard, mode=math},
     }
     \toprule
-    I \mathbin{/} \unit{\ampere} [\pm 0.1 A] & B \mathbin{/} \unit{\tesla} [\pm 0.00014 T] & T \mathbin{/} \unit{\second} \\
+    I \mathbin{/} \unit{\ampere} [\pm 0.1 A] & B \mathbin{/} \unit{\tesla} [\pm 0.00014 T] & T_p \mathbin{/} \unit{\second} \\
     \midrule
     0.5  & 0.00068  & 3.154 \\
     0.7  & 0.00095  & 2.557 \\
@@ -95,9 +97,9 @@ Steigung $a = (137.791 ± 6.958) s^2 \cdot T$\\
 Achsenabschnitt $b = (158.221 ± 30.484) s^2$\\
 \end{centering}
 
-Das Trägheitsmoment der Billardkugel beträgt $Jk = \frac{2}{5}mr^2 = 4.704 \cdot 10^-5 kg\cdot m^2$\\
+Das Trägheitsmoment der Billardkugel beträgt $Jk = \frac{2}{5}mr^2 = 4.704 \cdot 10^-5 kg\cdot m^2$, wie in der Vorbereitung berechnet \cite{V105}.\\
 
-Nach \ref{} ergibt sich das magnetsiche Moment $\mu_0 = (0.256 \pm 0.013) Am^2$
+Nach \ref{eqn:schwingung1} ergibt sich das magnetsiche Moment $\mu_{\symup{o}} = (0.256 \pm 0.013) Am^2$
 \newpage
 
 %______________________________________________________-- DRITTE MESSUNG
@@ -140,7 +142,7 @@ Steigung $a = (24.761 ± 4.049) \frac{1}{s \cdot T}$\\
 Achsenabschnitt $b =(0.021 ± 0.012) \frac{1}{s}$\\
 \end{centering}
 
-Der Drehimpuls $L_{\symup{k}}$ berechnet sich nach \ref{} zu\\
+Der Drehimpuls $L_{\symup{k}}$ berechnet sich mit $L_{\symup{k}} = J_{\symup{k}} \cdot \omega$ \cite{V105} zu\\
 
 \begin{centering}
 
@@ -148,11 +150,11 @@ Der Drehimpuls $L_{\symup{k}}$ berechnet sich nach \ref{} zu\\
 
 \end{centering}
 
-Damit berechnet sich das magnetische Moment zu\\
+Damit berechnet sich das magnetische Moment nach \ref{eqn:prz1} zu\\
 
 \begin{centering}
 
-  $\mu_0 = (0.193 \pm 0.032) Am^2$\\
+  $\mu_{\symup{p}} = (0.193 \pm 0.032) Am^2$\\
   
 \end{centering}
  

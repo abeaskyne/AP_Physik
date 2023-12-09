@@ -36,8 +36,8 @@ fig, ax =plt.subplots(1, 1, layout="constrained")
 ax.plot(T**2, 1/B, "k.")
 ax.plot(x_log, params_log[0] * x_log + params_log[1])
 ax.set_yscale("linear")
-ax.set_xlabel((r'T^2'))
-ax.set_ylabel(r'1/B')
+ax.set_xlabel((r'T^2[s^2]'))
+ax.set_ylabel(r'1/B[1/T]')
 
 fig.savefig("plot2.pdf")
 
@@ -55,8 +55,8 @@ fig, ax =plt.subplots(1, 1, layout="constrained")
 ax.plot(B, 1/T, "k.")
 ax.plot(x_log, params_log[0] * x_log + params_log[1])
 ax.set_yscale("linear")
-ax.set_xlabel((r'B'))
-ax.set_ylabel(r'1/Tp')
+ax.set_xlabel((r'B[T]'))
+ax.set_ylabel(r'1/Tp[1/s]')
 
 fig.savefig("plot3.pdf")
 

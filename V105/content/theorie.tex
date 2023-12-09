@@ -1,4 +1,83 @@
 \section{Theorie}
+\subsection{Allgemeine Grundlagen und homogenes Magnetfeld eines Helmholzspulenpaares}
+Die kleinste Objekt welches ein Magnetfeld erzeugt ist ein magnetischer Dipol, anders als bei elektrischen Feldern bei denen auch Monopole existieren. In der Praxis können
+diese Dipole als Permanentmagneten oder Stromdurchflossene Leiter dargestellt werden. Für letztere lässt sich das magnetische Moment leicht berechnen.
+Für das Magnetische Moment von Permanentmagneten existiert jedoch kein einfacher mathematischer Zusammenhang zur Berechnung. Stattdessen kann man sich eine Eigenschaft des Magnetischen moments 
+zur experimentellen Bestimmung zu nutzen machen. In homogenen Magnetischen Feldern wirkt ein Drehmoment \\
+
+\begin{centering}
+
+   $ \vec{D} = \vec{\mu} \times \vec{B}$ %% kreuzprodukt und begriffe als vektor 
+
+\end{centering}.
+\\
+Dabei dreht sich der Dipol bis $\mu$ und $B$ gleichgerichtet sind.
+zur reallen Umsetzung eines homogenen Magnetischen Feldes können in der Praxis zwei in gleicher Richtung vom gleichen Strom durchflossene Spulen genutzt werden. Der Abstand 
+der Spulen entspricht dabei ihrem Radius R. Das Feld in der Symmetrieachse der Spulen ist dann homogen und es ergibt sich dann mit Bio-Savart zu \\
+
+\begin{centering}
+
+$B(x)= \frac{\mu_{0}I}{2}\frac{R^2}{(R^2 + x^2)^{(5/2)}}$
+
+\end{centering}.\\
+
+Da in Praxis der Abstand der Spulen meist geringfügige Abweichungen vom Spulen Radius hat, folgt hier für das Feld in der Mitte der Spulen\\
+\begin{equation}
+ B(0)=\frac{\mu_{0}IR^2}{(R^2 + x^2)^{(3/2)}}
+ \label{eqn:Bio1}
+\end{equation}\\
+für hinreichend  kleine Abweichungen von SPulenabstand d und Radius R gilt dann, das das Magnetfeld auf der Symmetrieachse Näherungsweise homogen angenommen werden kann.
+Im folgenden werden die theoretischen Grundlagen zu diesen experimentellen Bestimmungsweisen erläutert.
+\subsection{Bestimmung über Gravitation}
+Auf eine mit dem Permanentmagneten verbundene Masse wirkt die Gravitationskraft, welche eine Drehmoment verursacht. Dem entgegen wirkt das magnetische Feld und das
+dadurch entstehende Drehmoment. Für eine bestimmte Feldstärke B baut sich dabei ein Gleichgewicht auf. Es folgt daraus
+\begin{equation}
+    \mu_{Dipol} \cdot B = m \cdot r \cdot g 
+    \label{eqn:grav2} 
+\end{equation}.
+
+\subsection{Bestimmung über Schwingunsdauer}
+In einem homogenen Magntefeld (z.B. im Feld einer Helmholzspule) verhält sich der magnetische Dipol in der Kugel bei durch Auslenkung aus der Ruhelage erzeugter Schwingung
+wie ein harmonischer Oszillator. \\
+
+\begin{centering}
+
+$-\lvert{\vec{\mu}_{\symup{Dipol}} \times \vec{B}}\rvert = J_{\symup{K}} \cdot \frac{d^2 \theta}{dt^2}$
+
+\end{centering}
+\\
+beschreibt dann die Bewegungsgleichung des Problems. Als Lösung folgt dann die Beziehung\\
+
+\begin{equation}
+    \mu_{Dipol}=\frac{4\pi^2 J_{K}}{T^2 B}
+    \label{eqn:schwingung1}
+\end{equation}
+\\
+
+
+\subsection{Bestimmung durch Präzession}
+Wenn auf die Drehachse eines in sich in Rotation befindlichen Körpers eine (auslenkende) Kraft wirkt, stellt sich eine Bewegung der Drehachse um den Drehimpulsvektor ein. 
+Diese Art der Bewegung heißt Präzession und entsteht bei der Billardkugel durch eine Auslenkung bei Rotation, wobei die Rotation selbst für eine Stabilität der Bewegung sorgt.
+Für die Bewegung der Kugel gilt dann\\
+
+\begin{centering}
+
+$\vec{\mu}_{Dipol} \times \vec{B}= \frac{d\vec{L}_{K}}{dt}$
+
+\end{centering}
+
+%% PRäzessionsfrequenz vllt einbauen
+durch Ersetzung des Drehimpuls $L_{K}$ durch das Trägheitsmoment $J_{K}$ und durch die Umlaufzeit $T_{p}$ folgt dann 
+\begin{equation}
+    \frac{1}{T_{p}}= \frac{\mu_{Dipol} B}{2L_{K}\pi}
+    \label{eqn:prz1}
+\end{equation}
+
+
+
+
+
+
+
 \label{sec:Theorie}
 
-\cite{sample}

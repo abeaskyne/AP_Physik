@@ -2362,11 +2362,18 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">programme.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">sample</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">Formelsammlung</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">numpy</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">V105</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">V105</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">matplotlib</bcf:citekey>
     <bcf:citekey order="4" intorder="1">numpy</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">numpy</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">scipy</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">uncertainties</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">Formelsammlung</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">numpy</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">numpy</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">V105</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">numpy</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">V105</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -1,14 +1,20 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {1}Theorie}{3}{section.1}%
-\contentsline {section}{\numberline {2}Durchführung}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Aufbau}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Messung zur Bestimmung des magnetischen Momentes durch Gravitation}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Messung zur Bestimmung des magnetsichen Momenetes durch Oszillation}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Messung zur Bestimmung des magnetischen Momentes über Präzession eines Magneten}{3}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Auswertung}{4}{section.3}%
-\contentsline {section}{\numberline {4}Diskussion}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Magnetisches Moment aus Gravitation}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Magnetisches Moment aus Oszillation}{8}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Magnetisches Moment aus Präzession}{8}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Vergleich der magnetischen Momente}{9}{subsection.4.4}%
+\contentsline {subsection}{\numberline {1.1}Allgemeine Grundlagen und homogenes Magnetfeld eines Helmholzspulenpaares}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Bestimmung über Gravitation}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Bestimmung über Schwingunsdauer}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Bestimmung durch Präzession}{4}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Durchführung}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Aufbau}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Messung zur Bestimmung des magnetischen Momentes durch Gravitation}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Messung zur Bestimmung des magnetsichen Momenetes durch Oszillation}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Messung zur Bestimmung des magnetischen Momentes über Präzession eines Magneten}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Auswertung}{7}{section.3}%
+\contentsline {section}{\numberline {4}Diskussion}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Magnetisches Moment aus Gravitation}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Magnetisches Moment aus Oszillation}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Magnetisches Moment aus Präzession}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Vergleich der magnetischen Momente}{12}{subsection.4.4}%
+\contentsline {section}{\nonumberline Literatur}{12}{section*.10}%
+\contentsline {section}{\numberline {5}Originale Werte}{12}{section.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
