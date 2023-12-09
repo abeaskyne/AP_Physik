@@ -7,4 +7,8 @@
 \contentsline {subsection}{\numberline {2.4}Messung zur Bestimmung des magnetischen Momentes über Präzession eines Magneten}{3}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Auswertung}{4}{section.3}%
 \contentsline {section}{\numberline {4}Diskussion}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Magnetisches Moment aus Gravitation}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Magnetisches Moment aus Oszillation}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Magnetisches Moment aus Präzession}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Vergleich der magnetischen Momente}{9}{subsection.4.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

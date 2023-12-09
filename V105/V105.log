@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.23)  6 DEC 2023 08:18
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.23)  9 DEC 2023 19:30
  restricted system commands enabled.
 **V105.tex
 (./V105.tex
@@ -1862,15 +1862,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--144
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
- [7<./plot3.pdf>]) (./content/diskussion.tex)
+ [7<./plot3.pdf>]) (./content/diskussion.tex [8]
+! You can't use `macro parameter character #' in vertical mode.
+l.25 ...section{Vergleich der magnetischen Momente}#
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
+
+ []
+
+)
 
 LaTeX Warning: Empty bibliography on input line 23.
 
- [8] (./V105.aux)
+ [9] (./V105.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1879,13 +1898,17 @@ L3 programming layer <2020/03/25>
 Package rerunfilecheck Warning: File `V105.aux' has changed. Rerun.
 
 Package rerunfilecheck Info: Checksums for `V105.aux':
-(rerunfilecheck)             Before: 6EE0054D370DC592C975D1BF92D269C8;8448
-(rerunfilecheck)             After:  7776A20543A48EB4B3376B7EB8E39ED5;8448.
+(rerunfilecheck)             Before: 7776A20543A48EB4B3376B7EB8E39ED5;8448
+(rerunfilecheck)             After:  02C389C62B9C382B4C5B38042E28FB19;11047.
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `V105.toc' has not changed.
-(rerunfilecheck)             Checksum: 0DE5694F9A05E37D64397D1EAB397CB0;843.
+
+Package rerunfilecheck Warning: File `V105.toc' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `V105.toc':
+(rerunfilecheck)             Before: 0DE5694F9A05E37D64397D1EAB397CB0;843
+(rerunfilecheck)             After:  78ACEF440BAE6B78D57546ACE831C0E1;1246.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                V105
@@ -1897,14 +1920,14 @@ Package logreq Info: Writing requests to 'V105.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40171 strings out of 477259
- 100000,2848258 words of node,token memory allocated
+ 40180 strings out of 477259
+ 100000,2373549 words of node,token memory allocated
  710 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 8 glue, 4 kern, 1 penalty, 3 glyph, 14
  attribute, 75 glue_spec, 9 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:5,2:3799,3:228,4:95,5:382,6:113,7:7230,8:23,9:1739,10:20,11:66
-9,12:1
- 60801 multiletter control sequences out of 65536+600000
+   avail lists: 1:5,2:3799,3:228,4:95,5:429,6:113,7:7230,8:23,9:1739,10:26,11:75
+4,12:1
+ 60805 multiletter control sequences out of 65536+600000
  91 fonts using 36551331 bytes
  113i,12n,115p,10917b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/abea/.local/texlive/2023/texmf-dist/fonts/opentype/public/lm-math/latinmo
@@ -1915,10 +1938,10 @@ nts/opentype/public/lm/lmroman10-regular.otf></home/abea/.local/texlive/2023/tex
 mf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/abea/.local/texliv
 e/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/abea/.local/
 texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on V105.pdf (8 pages, 70336 bytes).
+Output written on V105.pdf (9 pages, 76089 bytes).
 
-PDF statistics: 242 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 131072)
- 65 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 262 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 131072)
+ 97 words of extra memory for PDF output out of 10000 (max. 100000000)
 
